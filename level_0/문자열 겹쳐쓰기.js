@@ -10,3 +10,13 @@ function solution(my_string, overwrite_string, s) {
 }
 
 solution("He11oWor1d", "lloWorl", 2);
+
+function solution1(my_string, overwrite_string, s) {
+  let result = "";
+  for (let i = 0; i < my_string.length; i++) {
+    if (i >= s && i < s + overwrite_string.length) {
+    }
+  }
+}
+
+solution1("He11oWor1d", "lloWorl", 2);
